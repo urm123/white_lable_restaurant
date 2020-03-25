@@ -1,0 +1,151 @@
+@media (min-width: 1200px){
+    .container {
+        width: 1200px;
+    }
+}
+@media (min-width: 768px){
+
+}
+@media (max-width: 480px){
+    .navbar-toggle{
+        margin-top: -84px;
+    }
+    .single-project-nav .nav-tabs>li {
+        float: none !important;
+    }
+    .single-project-nav .form-control{
+        margin-bottom: 20px;
+        margin-left: 15px;
+    }
+    .modal-content{
+        width: 100% !important;
+    }
+    .btn-decline{
+        margin-bottom: 20px;
+    }
+    .master-dashboard-section h2 {
+        margin-top: 30px;
+    }
+    .resturant-profile-nav{
+        height: auto !important;
+    }
+    .resturant-profile-nav .nav-tabs>li {
+        float: none !important;
+    }
+    .restaurant-profile-form form .form-control{
+        width: 100% !important; 
+    }
+    .restaurant-profile-section .material-switch{
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+    }
+    .restaurant-profile-form {
+        margin-right: 0 !important;
+    }
+    .restaurant-menu-section select{
+        width: 100% !important;
+    }
+    .frame{
+        width: 100% !important;
+        height: 100% !important;
+    }
+    .post-code-form .form-control{
+        width: 100% !important; 
+    }
+    .btn-add-post{
+        margin-top: 20px;
+    }
+    .delivery-time-form .delivery-name{
+        line-height: normal !important;
+    }
+    .col-md-15{
+        width: 100% !important;
+    }
+    .payment-methods-section form img {
+        max-width: unset !important;
+        max-height: unset !important;
+        min-width: unset !important;
+        min-height: unset !important;
+    }
+    .payment-row .material-switch {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+    .single-project-nav .navbar-right {
+        margin-top: 0 !important;
+    }
+    .delivery-time-form label{
+        margin-left: 35px !important;
+        margin-top: -25px !important;
+    }
+     .discount-form .form-control{
+        width: 100% !important; 
+    }
+    .signin-form .form-control{
+        width: 100% !important; 
+    }
+    .btn-signin{
+        width: 100% !important;
+    }
+    .banner-text{
+        width: 100% !important;
+    }
+}
+@media (min-width:481px) and  (max-width: 991px) {
+    .single-project-nav .form-control {
+        width: 160px !important;
+    }
+    .resturant-profile-nav{
+        height: auto !important;
+    }
+    .restaurant-profile-section .material-switch{
+        margin-top: 0 !important;
+        margin-right: 0 !important;
+    }
+    .restaurant-profile-form form .form-control{
+        width: 100% !important; 
+    }
+    .delivery-time-form .delivery-name{
+        line-height: normal !important;
+    }
+    .delivery-time-form label{
+        margin-left: 35px !important;
+        margin-top: -25px !important;
+    }
+    .discount-form .form-control{
+        width: 100% !important; 
+    }
+    .modal-content{
+        width: 100% !important;
+    }
+    .btn-decline{
+        margin-bottom: 20px;
+    }
+    .signin-form .form-control{
+        width: 100% !important; 
+    }
+    .btn-signin{
+        width: 100% !important;
+    }
+    .banner-text{
+        width: 100% !important;
+    }
+}
+
+/* ----------- iPad ----------- */
+
+/* Portrait */
+@media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: portrait)  {
+
+}
+
+/* Landscape */
+@media only screen 
+    and (min-device-width: 768px) 
+    and (max-device-width: 1024px) 
+    and (orientation: landscape)  {
+
+}

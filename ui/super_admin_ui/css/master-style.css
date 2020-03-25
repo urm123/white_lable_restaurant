@@ -1,0 +1,989 @@
+/* Common */
+html, body {
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-family: 'Nexa-Heavy';
+    line-height: 64px;
+    font-size: 46px;
+    color: #333333;
+}
+h2{
+    font-family: 'Nexa-Heavy';
+    line-height: normal;
+    font-size: 26px;
+    color: #333333;
+}
+h3{
+    font-family: 'Nexa-Heavy';
+    line-height: normal;
+    font-size: 18px;
+    color: #333333;
+}
+h4{
+    font-family: 'Nexa-Heavy';
+    line-height: normal;
+    font-size: 14px;
+    color: #333333;
+}
+p{
+    font-family: 'Nexa-Regular';
+    line-height: 24px;
+    font-size: 16px;
+    color: #000000;
+}
+body{
+    font-family: 'Nexa-Regular';
+    line-height: normal;
+    font-size: 14px;
+}
+button{
+    background-color: #C7003B;
+    border: 1px solid #C7003B;
+    color: #FFFFFF;
+}
+/* Common */
+/* Header */
+.fixed-top{
+    min-height: 30px;
+    background-color: #910D3F;
+    margin-bottom: 15px;
+}
+.fixed-top ul{list-style: none; overflow: hidden; float: right; margin-top: 7px;}
+.fixed-top ul li{
+    display:inline;
+    font-family: 'Nexa-Regular';
+    line-height: 18px;
+    font-size: 14px;
+    color: #F2F2F2;
+    margin: 5px 20px;
+}
+.fixed-header ul{list-style: none; overflow: hidden; float: right;}
+.fixed-header ul li{
+    font-family: 'Nexa-Regular';
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    display: inline;
+    color: #C7003B;
+    margin: 15px 25px;
+}
+
+/* Header */
+
+/*header css start */
+.first-navbar{
+    background-color: #333333;
+    border-color: #333333;
+    min-height: 30px;
+    max-height: 30px;
+    height: 30px !important;
+}
+.second-navbar{
+    margin-top: 30px;
+    height: 60px;
+    background: transparent;
+    border: none;
+}
+.navbar-inverse .navbar-nav>li>a{
+    font-family: 'Nexa-Book';
+    line-height: 18px;
+    font-size: 14px;
+    color: #F2F2F2;
+}
+.navbar-inverse.first-navbar .navbar-nav>li>a{
+    padding-top: 5px;
+}
+.navbar-brand>img{
+    margin-top: -9px;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+/*header css end */
+
+/*Home css start */
+
+.mas-head{
+    font-family: 'Nexa-Heavy';
+    font-size: 18px;
+    color:#910D3F;
+    position: absolute;
+    bottom: 10px;
+}
+.banner-section{
+    background-image: url(../img/banner-image.png);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-text{
+    margin-top: 120px;
+    width: 386px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-text h1{
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Nexa-Bold';
+}
+.signin-form{
+    margin-top: 50px;
+}
+.signin-form label{
+    font-family: 'Nexa-Bold';
+    font-size: 14px;
+    color:#F2F2F2;
+    margin-bottom: 15px;
+}
+.signin-form .form-control{
+    width: 386px;
+    height: 50px;
+    border: 1px solid #F2F2F2;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0;
+}
+.signin-form .form-control::placeholder{
+    font-family: 'Nexa-Book';
+    font-size: 14px;
+    color: #BDBDBD;
+}
+.signin-form .form-group {
+    margin-bottom: 25px;
+}
+.btn-signin{
+    width: 386px;
+    height: 54px;
+    background: #C7003B;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Nexa-Bold';
+}
+/*Home css end */
+
+/*Restaurants Requests css start */
+
+.master-dashboard-section {
+    padding-top: 90px;
+}
+.master-dashboard-section h2{
+    /*margin-top: 30px;*/
+}
+.master-dashboard-section .panel{
+    border: none;
+    box-shadow: none;
+}
+.master-sidebar{
+    margin-top: 50px;
+}
+.master-sidebar .panel-heading{
+    padding: 10px 0;
+}
+.master-sidebar .nav-tabs>li{
+    border-top: 1px solid #BDBDBD;
+    width: 100%;
+    padding: 5px 0;
+}
+.master-sidebar .nav-tabs>li:last-child{
+    border-bottom: 1px solid #BDBDBD;
+}
+.master-sidebar .nav-tabs>li>a{
+    font-family: 'Nexa-Bold';
+    line-height: normal;
+    font-size: 18px;
+    color: #828282;
+    padding: 10px 0;
+    border: none;
+}
+.master-sidebar .nav-tabs>li>a:hover, .master-sidebar .nav-tabs>li>a:active{
+    background: none;
+    border: none;
+    color: #C7003B;
+}
+.admin-panel {
+    background: #FFFFFF;
+    box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.15);
+}
+.master-dashboard-section .panel-body{
+    padding: 0;
+}
+.single-project-nav{
+    background-color: #BDBDBD !important;
+    border: none;
+    border-radius: 0;
+}
+.single-project-nav .nav-tabs{
+    border: none;
+}
+.single-project-nav .nav-tabs>li>a{
+    line-height: normal;
+    font-size: 18px;
+    color: #828282;
+    font-family: 'Nexa-Bold';
+}
+.single-project-nav .nav-tabs>li>a:hover{
+    color: #333333;
+}
+.single-project-nav .form-control{
+    width: 205px;
+    height: 50px;
+    border: 1px solid #4F4F4F;
+    background: transparent;
+    padding-left: 10px;
+    line-height: 17px;
+    font-size: 14px;
+    color: #828282;
+    font-family: 'Nexa-Book';
+    border-radius: 0;
+    margin-right: 15px;
+}
+.single-project-nav .sort-by{
+    margin-left: 20px;
+}
+.single-project-nav .sort-by select.form-control{
+    display: inline-block;
+    border: none;
+    box-shadow: none;
+    line-height: 21px;
+    font-size: 16px;
+    color: #C7003B;
+    font-family: 'Nexa-Bold';
+    width: 150px;
+}
+.single-project-nav .sort-by label{
+    line-height: 24px;
+    font-size: 16px;
+    color: #000000;
+    font-family: 'Nexa-Book';
+}
+.restaurant-search::placeholder{
+    line-height: 17px;
+    font-size: 14px;
+    color: #828282 !important;
+    font-family: 'Nexa-Book';
+}
+.requests-table{
+    border: 1px solid #BDBDBD;
+    width: 100%;
+}
+.requests-table th{
+    border-bottom: 1px solid #BDBDBD;
+    line-height: 17px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Nexa-Bold';
+}
+.requests-table td{
+    line-height: 17px;
+    font-size: 14px;
+    color: #828282;
+    font-family: 'Nexa-Book';
+}
+.requests-table td.status{
+    color: #219653;
+}
+.requests-table th, .requests-table td{
+    min-width: /*120px*/;
+    padding: 15px;
+}
+.nav-tabs>li.request-tab.active .restaurant-search{
+    display: none;
+}
+#restaurants .panel-body{
+    padding: 16px !important;
+}
+/*Restaurants Requests css end */
+/*Restaurants Management css start */
+
+.resturant-profile-nav{
+    background-color: #333333 !important;
+    height: 39px;
+    border: none;
+    border-radius: 0;
+    padding: 0 15px;
+}
+.resturant-profile-nav .nav-tabs{
+    border: none;
+}
+.resturant-profile-nav .nav-tabs>li>a{
+    line-height: 18px;
+    font-size: 14px;
+    color: #828282;
+    font-family: 'Nexa-Book';
+}
+.resturant-profile-nav .nav-tabs>li>a:hover{
+    color: #fff;
+    background: none;
+    border: none;
+}
+.resturant-profile-nav .form-control{
+    width: 205px;
+    height: 50px;
+    border: 1px solid #4F4F4F;
+    background: transparent;
+    padding-left: 10px;
+    line-height: 17px;
+    font-size: 14px;
+    color: #828282;
+    font-family: 'Nexa-Book';
+    border-radius: 0;
+    margin-right: 15px;
+}
+.restaurant-profile-form{
+    margin-right: 15px;
+}
+.restaurant-profile-form form h3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.restaurant-profile-form form label{
+    line-height: 17px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Nexa-Bold';
+}
+.restaurant-profile-form form .form-control{
+    width: 386px;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-family: 'Nexa-Book';
+}
+.restaurant-profile-form form .form-control::placeholder{
+    line-height: 17px;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-family: 'Nexa-Book';
+}
+.restaurant-profile-form form .form-control .tag{
+    line-height: 17px;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Nexa-Book';
+}
+.restaurant-profile-form form .form-control .tag span{
+    background: #4F4F4F;
+    border-radius: 1px;
+    padding: 2px;
+}
+.restaurant-profile-form form textarea.form-control{
+    width: 100%;
+    height: auto;
+}
+.btn-approve{
+    width: 283px;
+    height: 54px;
+    background: #C7003B;
+    border-radius: 5px;
+    color: #FFFFFF;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Nexa-Bold';
+}
+.restaurant-profile-section .material-switch{
+    margin-top: -50px;
+    margin-right: -39px;
+}
+.material-switch > input[type="checkbox"] {
+    display: none;   
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: inherit;
+    left: 20px;
+}
+.restaurant-profile-form form label.label-success{
+    background-color: #219653;
+}
+.material-switch > label::before{
+    background-color: #C7003B;
+}
+.material-switch > label::after{
+    background-color: #C7003B;
+}
+/*Restaurants Management css end */
+/*Restaurants Management Menu css start */
+.restaurant-menu-section select{
+    width: 386px;
+    height: 50px;
+    line-height: 17px;
+    font-size: 14px;
+    color: #4F4F4F;
+    font-family: 'Nexa-Book';  
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+.menu-item-row p{
+    line-height: 21px;
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Nexa-Bold';
+}
+.menu-item-row a{
+    line-height: 18px;
+    font-size: 14px;
+    text-decoration-line: underline;
+    color: #C7003B;
+    font-family: 'Nexa-Book';   
+}
+.menu-item-description p{
+    line-height: 18px;
+    font-size: 14px;
+    color: #828282;
+    font-family: 'Nexa-Book';  
+}
+.menu-item-price p{
+    line-height: 21px;
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Nexa-Bold';
+}
+.menu-item-price h4{
+    line-height: 18px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Nexa-Book'; 
+}
+.menu-item-price{
+    margin-top: 20px;
+}
+.menu-item{
+    margin-top: 30px;
+    border-bottom: 1px solid #828282 ;
+}
+.restaurant-menu-section .btn-approve{
+    margin-top: 20px;
+}
+/*Restaurants Management Menu css end */
+/*Restaurants Management Delivery settings css start */
+.frame{
+    width: 410px;
+    height: 40px;
+    background: #910D3F;
+}
+.frame img{
+    float: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.frame h4{
+    padding-top: 10px;
+    line-height: 18px;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: 'Nexa-Book'; 
+}
+.post-code-form .form-control{
+    width: 386px;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+.form-control::placeholder{
+    line-height: 17px;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-family: 'Nexa-Book';
+}
+.post-code-form h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.post-code-form h4{
+    margin-bottom: 20px;
+}
+.btn-add-post{
+    width: 183px;
+    height: 54px;
+    background: #C7003B;
+    border-radius: 5px;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Nexa-Bold';
+}
+.rect{
+    background: #C7003B;
+    width: 12px;
+    height: 4px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.delivery-time-form table{
+    width: 100%;
+}
+.delivery-time-form .delivery-name{
+    line-height: 70px;
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Nexa-Book';
+}
+.delivery-time-form .form-control{
+    height: 50px;
+    width: 183px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+.delivery-time-form input[type="checkbox"]{
+    width: 16px;
+    height: 15.55px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: .15s;
+    float: left;
+}
+.delivery-time-form input[type="checkbox"]:checked:before {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*line-height:2em;*/
+    text-align: center;
+    color: #000 !important;
+    -webkit-text-fill-color: #000 !important;
+    content: '✘';
+    outline: none;
+}
+.delivery-time-form input[type="checkbox"]:checked:before {
+    content: '✔';
+}
+.delivery-time-form label{
+    line-height: 18px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Nexa-Book';
+    margin-top: 3px;
+    margin-left: 10px;
+}
+.delivery-time-form{
+    margin-top: 30px;
+}
+/*Restaurants Management Delivery settings css end */
+/*Restaurants Management Promotions css start */
+.restaurant-wide-row{
+    margin-top: 20px;
+}
+.discount-form .form-control{
+    height: 50px;
+    width: 282px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 0;
+    line-height: 17px;
+    font-size: 14px;
+    font-family: 'Nexa-Book';
+    color: #BDBDBD;
+}
+.discount-form label{
+    line-height: 17px;
+    font-size: 14px;
+    color: #333333;
+    font-family: 'Nexa-Bold'; 
+}
+.discount-select-row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.discount-promo-form h4{
+    line-height: 17px;
+    font-size: 14px;
+    color: #828282;
+    font-family: 'Nexa-Book';
+    margin-top: 20px;
+}
+.discount-promo-form table{
+    width: 100%;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.discount-promo-form table td{
+    line-height: 17px;
+    font-size: 14px;
+    font-family: 'Nexa-Book';
+    color: #828282;
+    border: 1px solid #BDBDBD;
+    padding: 15px;
+}
+.promo-heading{
+    text-decoration-line: underline;
+    font-family: 'Nexa-Bold' !important; 
+    color: #333333 !important;
+}
+.discount-promo-form .material-switch{
+    margin-top: 6px;
+}
+/*Restaurants Management Promotions css end */
+
+/*Stats and reports css start */
+.btn-print-report {
+    width: 140px;
+    height: 34px;
+    background: #C7003B;
+    border-radius: 3px;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Nexa-Bold'; 
+    color: #FFFFFF;
+    margin-top: 7px;
+}
+.stats-search img{
+    margin-top: 5px;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+.stats-nav .sort-by select.form-control{
+    width: 125px;
+}
+#stats-reports .panel-body {
+    padding: 16px !important;
+}
+.sales-figures-table td{
+    padding: 10px;
+}
+.chart-row{
+    margin-top: 30px;
+}
+.paid{
+    color: #219653 !important;
+}
+.lapsed{
+    color: #EB5757 !important;
+}
+/*Stats and reports css end */
+
+/*Platform settings css start */
+#platform-settings .panel-body {
+    padding: 16px !important;
+}
+.cuisine-lists{
+    padding-bottom: 15px;
+}
+.cuisine-lists .rect{
+    float: left;
+}
+.cuisine-lists p{
+    font-size: 16px;
+    font-family: 'Nexa-Book';
+    color: #333333;
+}
+.cuisine-lists-row {
+    margin-top: 30px;
+}
+.payment-methods-section h3{
+    line-height: normal;
+    font-size: 18px;
+    font-family: 'Nexa-Bold'; 
+    color: #333333;
+}
+.col-md-15{
+    width: 20%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.payment-methods-section form .payment-row{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.payment-methods-section form img{
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto;*/
+    max-width: 110px;
+    max-height: 50px;
+    min-width: 110px;
+    min-height: 50px;
+}
+.payment-row .material-switch{
+    padding-top: 50px;
+}
+.subscription-box h4{
+    line-height: normal;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Nexa-Bold'; 
+    color: #333333;
+}
+.subscription-box p{
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Nexa-Book';
+    color: #828282;
+}
+.subscription-box ul{
+    margin-left: -40px;
+}
+.subscription-box ul li{
+    line-height: 40px;
+    font-size: 16px;
+    font-family: 'Nexa-Bold'; 
+    color: #828282;
+    list-style: none;
+}
+.btn-edit-subscription{
+    background: #C7003B;
+    border-radius: 5px;
+    height: 54px;
+    width: 289px;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Nexa-Bold'; 
+    color: #FFFFFF;
+    padding: 13px 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subscription-box{
+    border: 1px solid #828282;
+    padding: 15px;
+}
+.discount-promo-form h4 a{
+    color: #C7003B;
+}
+/*Platform settings css end */
+/*Master settings css start */
+#master-settings .panel-body {
+    padding: 16px !important;
+}
+.single-project-nav .navbar-right{
+    margin-top: -46px;
+}
+#admin-users table{
+    margin-bottom: 30px;
+}
+/*Master settings css end */
+/*Notifications css start */
+#notifications .panel-body {
+    padding: 16px !important;
+}
+/*Notifications css end */
+
+.modal-content {
+    background: #FFFFFF;
+    border: 2px solid #4F4F4F;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 474px;
+    padding: 30px 30px;
+}
+.modal h2{
+    color: #000000;
+    text-align: center;
+    border-bottom: 1px solid #4F4F4F;
+    padding-bottom: 10px;
+    font-size: 26px;
+    font-family: 'Nexa-Heavy';
+}
+.requestmodal-form{
+    margin-top: 50px;
+}
+.left-label{
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Nexa-Book';
+    color: #000000;
+    padding-bottom: 13px;
+}
+.right-label{
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Nexa-Book';
+    color: #828282;
+    padding-bottom: 13px;
+}
+.btn-decline{
+    height: 54px;
+    width: 184px;
+    background: #FFC301;
+    border-radius: 5px;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Nexa-Bold';
+    color: #FFFFFF;
+}
+.btn-accept{
+    height: 54px;
+    width: 184px;
+    background: #C7003B;
+    border-radius: 5px;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Nexa-Bold';
+    color: #FFFFFF;
+}
+.requestmodal-form label{
+    font-family: 'Nexa-Bold';
+    line-height: 17px;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.requestmodal-form .form-control{
+    width:100%;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin-bottom: 15px;
+    font-family: 'Nexa-Book';
+}
+.requestmodal-form ::placeholder{
+    font-family: 'Nexa-Book';
+    line-height: 17px;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-weight: normal;
+}
+.requestmodal-form textarea{
+    height: auto !important;
+}
+.requestmodal-form  select{
+    font-family: 'Nexa-Book';
+    line-height: 17px;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-weight: normal;
+}
+.img-upload-box{
+    background: #E0E0E0;
+    color: #828282;
+    line-height: 17px;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Nexa-Book';
+    width: 100%;
+    height: 180px;
+    padding: 76px 35px;
+}
+.yellow-hr{
+    border-top: 1px solid #4F4F4F;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn-add-varient{
+    width: 186px;
+    height: 34px;
+    background: #5A1846;
+    border-radius: 3px;
+    line-height: normal;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Nexa-Bold';
+    color: #FFFFFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.requestmodal-form input[type=checkbox]{
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    vertical-align: middle;
+}
+.requestmodal-form .terms-check label{
+    font-family: 'Nexa-Book';
+    line-height: 17px;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-weight: normal;
+    padding-left: 10px;
+}
+input#rememberme:checked:before {
+    /*position:absolute;*/
+    margin-left: 5px;
+    width:100%;
+    height:100%;
+    /*line-height:2em;*/
+    text-align:center;
+    color:#000;
+    content: '✘';
+}
+
+input#rememberme:checked:before {
+    content: '✔';
+}
+.notification-count{
+    float: right;
+    width: 34px;
+    height: 34px;
+    background: #EB5757;
+    line-height: normal;
+    font-size: 18px;
+    font-family: 'Nexa-Bold';
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 5px 7px;
+    margin-top: -5px;
+}

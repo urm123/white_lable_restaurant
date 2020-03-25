@@ -1,0 +1,11 @@
+/node_modules
+/public/hot
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/storage/logs/*
+bootstrap/cache/*
+*.DS_Store
+.idea

@@ -1,0 +1,5529 @@
+{
+  "variables": [],
+  "info": {
+    "name": "Laravel API",
+    "_postman_id": "46f60ec4-f747-4ad5-b3d5-364eb1fa9219",
+    "description": "",
+    "schema": "https:\/\/schema.getpostman.com\/json\/collection\/v2.0.0\/collection.json"
+  },
+  "item": [
+    {
+      "name": "general",
+      "description": "",
+      "item": [
+        {
+          "name": "Authorize a client to access the user's account.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/authorize",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Approve the authorization request.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/authorize",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Deny the authorization request.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/authorize",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Authorize a client to access the user's account.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/token",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Get all of the authorized tokens for the authenticated user.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/tokens",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Delete the given token.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/tokens\/{token_id}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Get a fresh transient token cookie for the authenticated user.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/token\/refresh",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Get all of the clients for the authenticated user.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/clients",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a new client.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/clients",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the given client.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/clients\/{client_id}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Delete the given client.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/clients\/{client_id}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Get all of the available scopes for the application.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/scopes",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Get all of the personal access tokens for the authenticated user.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/personal-access-tokens",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Create a new personal access token for the user.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/personal-access-tokens",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Delete the given token.",
+          "request": {
+            "url": "http:\/\/localhost\/oauth\/personal-access-tokens\/{token_id}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/api\/search",
+          "request": {
+            "url": "http:\/\/localhost\/api\/search",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/cuisine",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/cuisine\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/cuisine",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/cuisine\/{cuisine}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/cuisine\/{cuisine}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/cuisine\/{cuisine}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/cuisine\/{cuisine}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/api\/restaurant",
+          "request": {
+            "url": "http:\/\/localhost\/api\/restaurant",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/restaurant\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/restaurant",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/restaurant\/{restaurant}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/restaurant\/{restaurant}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/restaurant\/{restaurant}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/restaurant\/{restaurant}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/api\/user",
+          "request": {
+            "url": "http:\/\/localhost\/api\/user",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/review",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/address",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/address\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/address",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/address\/{address}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/address\/{address}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/address\/{address}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/api\/address\/{address}",
+          "request": {
+            "url": "http:\/\/localhost\/api\/address\/{address}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/reservation",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/reservation\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/reservation",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/reservation\/{reservation}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/reservation\/{reservation}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/reservation\/{reservation}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/reservation\/{reservation}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/delivery",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/delivery\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/api\/delivery",
+          "request": {
+            "url": "http:\/\/localhost\/api\/delivery",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/delivery\/{delivery}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/delivery\/{delivery}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/delivery\/{delivery}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/delivery\/{delivery}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/takeaway",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/takeaway\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/api\/takeaway",
+          "request": {
+            "url": "http:\/\/localhost\/api\/takeaway",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/takeaway\/{takeaway}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/takeaway\/{takeaway}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/takeaway\/{takeaway}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/takeaway\/{takeaway}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/api\/restaurant\/favourite",
+          "request": {
+            "url": "http:\/\/localhost\/api\/restaurant\/favourite",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/api\/user\/user",
+          "request": {
+            "url": "http:\/\/localhost\/api\/user\/user",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/api\/user\/favourites",
+          "request": {
+            "url": "http:\/\/localhost\/api\/user\/favourites",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/api\/user\/order",
+          "request": {
+            "url": "http:\/\/localhost\/api\/user\/order",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/user\/{user}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/user\/{user}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/api\/review",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/api\/promotion\/validate",
+          "request": {
+            "url": "http:\/\/localhost\/api\/promotion\/validate",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the application's login form.",
+          "request": {
+            "url": "http:\/\/localhost\/login",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Handle a login request to the application.",
+          "request": {
+            "url": "http:\/\/localhost\/login",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/logout",
+          "request": {
+            "url": "http:\/\/localhost\/logout",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the application registration form.",
+          "request": {
+            "url": "http:\/\/localhost\/register",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Handle a registration request for the application.",
+          "request": {
+            "url": "http:\/\/localhost\/register",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the form to request a password reset link.",
+          "request": {
+            "url": "http:\/\/localhost\/password\/reset",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Send a reset link to the given user.",
+          "request": {
+            "url": "http:\/\/localhost\/password\/email",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the password reset view for the given token.",
+          "request": {
+            "url": "http:\/\/localhost\/password\/reset\/{token}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "If no token is present, display the link request form.",
+            "response": []
+          }
+        },
+        {
+          "name": "Reset the given user's password.",
+          "request": {
+            "url": "http:\/\/localhost\/password\/reset",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/auth\/sign-up\/validate",
+          "request": {
+            "url": "http:\/\/localhost\/auth\/sign-up\/validate",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost",
+          "request": {
+            "url": "http:\/\/localhost",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/about-us",
+          "request": {
+            "url": "http:\/\/localhost\/about-us",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/blog",
+          "request": {
+            "url": "http:\/\/localhost\/blog",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/careers",
+          "request": {
+            "url": "http:\/\/localhost\/careers",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/press",
+          "request": {
+            "url": "http:\/\/localhost\/press",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/faq",
+          "request": {
+            "url": "http:\/\/localhost\/faq",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/contact-us",
+          "request": {
+            "url": "http:\/\/localhost\/contact-us",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/contact\/post",
+          "request": {
+            "url": "http:\/\/localhost\/contact\/post",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/why-eatoeat",
+          "request": {
+            "url": "http:\/\/localhost\/why-eatoeat",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/cancellations-and-refunds",
+          "request": {
+            "url": "http:\/\/localhost\/cancellations-and-refunds",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/terms-and-conditions",
+          "request": {
+            "url": "http:\/\/localhost\/terms-and-conditions",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/privacy-policy",
+          "request": {
+            "url": "http:\/\/localhost\/privacy-policy",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/search",
+          "request": {
+            "url": "http:\/\/localhost\/search",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/landing",
+          "request": {
+            "url": "http:\/\/localhost\/landing",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/restaurant",
+          "request": {
+            "url": "http:\/\/localhost\/restaurant",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/restaurant\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/restaurant",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/restaurant\/{restaurant}",
+          "request": {
+            "url": "http:\/\/localhost\/restaurant\/{restaurant}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/restaurant\/{restaurant}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/restaurant\/{restaurant}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/restaurant\/{restaurant}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/cuisine",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/cuisine\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/cuisine",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/cuisine\/{cuisine}",
+          "request": {
+            "url": "http:\/\/localhost\/cuisine\/{cuisine}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/cuisine\/{cuisine}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/cuisine\/{cuisine}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/cuisine\/{cuisine}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/cart",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/cart\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/cart",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/cart\/{cart}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/cart\/{cart}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/cart\/{cart}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/cart\/{cart}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/location",
+          "request": {
+            "url": "http:\/\/localhost\/location",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/landing",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/landing",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/favourite",
+          "request": {
+            "url": "http:\/\/localhost\/user\/favourite",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/favourites",
+          "request": {
+            "url": "http:\/\/localhost\/user\/favourites",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/deliveries",
+          "request": {
+            "url": "http:\/\/localhost\/user\/deliveries",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/takeaways",
+          "request": {
+            "url": "http:\/\/localhost\/user\/takeaways",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/reservations",
+          "request": {
+            "url": "http:\/\/localhost\/user\/reservations",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/profile",
+          "request": {
+            "url": "http:\/\/localhost\/user\/profile",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/profile\/post",
+          "request": {
+            "url": "http:\/\/localhost\/user\/profile\/post",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/password",
+          "request": {
+            "url": "http:\/\/localhost\/user\/password",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/password\/post",
+          "request": {
+            "url": "http:\/\/localhost\/user\/password\/post",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/address",
+          "request": {
+            "url": "http:\/\/localhost\/user\/address",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/dining",
+          "request": {
+            "url": "http:\/\/localhost\/user\/dining",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/dining\/post",
+          "request": {
+            "url": "http:\/\/localhost\/user\/dining\/post",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/communication",
+          "request": {
+            "url": "http:\/\/localhost\/user\/communication",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/communication\/post",
+          "request": {
+            "url": "http:\/\/localhost\/user\/communication\/post",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/payment",
+          "request": {
+            "url": "http:\/\/localhost\/user\/payment",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/user\/payment\/post",
+          "request": {
+            "url": "http:\/\/localhost\/user\/payment\/post",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/user",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/user\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/user",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/user\/{user}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/user\/{user}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/user\/{user}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/user\/{user}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/delivery\/confirm",
+          "request": {
+            "url": "http:\/\/localhost\/delivery\/confirm",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/delivery\/validate",
+          "request": {
+            "url": "http:\/\/localhost\/delivery\/validate",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/delivery",
+          "request": {
+            "url": "http:\/\/localhost\/delivery",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/delivery\/create",
+          "request": {
+            "url": "http:\/\/localhost\/delivery\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/delivery",
+          "request": {
+            "url": "http:\/\/localhost\/delivery",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/delivery\/{delivery}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/delivery\/{delivery}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/delivery\/{delivery}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/delivery\/{delivery}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/takeaway\/confirm",
+          "request": {
+            "url": "http:\/\/localhost\/takeaway\/confirm",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/takeaway\/validate",
+          "request": {
+            "url": "http:\/\/localhost\/takeaway\/validate",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/takeaway",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/takeaway\/create",
+          "request": {
+            "url": "http:\/\/localhost\/takeaway\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/takeaway",
+          "request": {
+            "url": "http:\/\/localhost\/takeaway",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/takeaway\/{takeaway}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/takeaway\/{takeaway}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/takeaway\/{takeaway}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/takeaway\/{takeaway}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/reservation",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/reservation\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/reservation",
+          "request": {
+            "url": "http:\/\/localhost\/reservation",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/reservation\/{reservation}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/reservation\/{reservation}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/reservation\/{reservation}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/reservation\/{reservation}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/address\/update-all",
+          "request": {
+            "url": "http:\/\/localhost\/address\/update-all",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/address",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/address\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/address",
+          "request": {
+            "url": "http:\/\/localhost\/address",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/address\/{address}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/address\/{address}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/address\/{address}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/address\/{address}",
+          "request": {
+            "url": "http:\/\/localhost\/address\/{address}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/review",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/ticket\/user\/message",
+          "request": {
+            "url": "http:\/\/localhost\/ticket\/user\/message",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/ticket",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/ticket\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/ticket",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/ticket\/{ticket}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/ticket\/{ticket}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/ticket\/{ticket}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/ticket\/{ticket}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/promotion\/validate",
+          "request": {
+            "url": "http:\/\/localhost\/promotion\/validate",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/promotion",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/promotion\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/promotion",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/promotion\/{promotion}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/promotion\/{promotion}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/promotion\/{promotion}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/promotion\/{promotion}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/delivery\/get",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery\/get",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery\/{delivery}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery\/{delivery}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery\/{delivery}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery\/{delivery}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/takeaway\/get",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway\/get",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway\/{takeaway}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway\/{takeaway}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway\/{takeaway}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway\/{takeaway}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/reservation\/get",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/reservation\/get",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/reservation",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/reservation\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/reservation",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/reservation\/{reservation}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/reservation\/{reservation}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/reservation\/{reservation}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/reservation\/{reservation}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/menu\/get",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu\/get",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/menu\/get\/items",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu\/get\/items",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/menu",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu\/{menu}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu\/{menu}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/menu\/{menu}",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu\/{menu}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu\/{menu}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu-item",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu-item\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/menu-item",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu-item",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu-item\/{menu_item}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu-item\/{menu_item}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/menu-item\/{menu_item}",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu-item\/{menu_item}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/menu-item\/{menu_item}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/review",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/review\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/review",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/review\/{review}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/review\/{review}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/review\/{review}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/review\/{review}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/ticket\/restaurant\/message",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/ticket\/restaurant\/message",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/ticket",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/ticket\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/ticket",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/ticket\/{ticket}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/ticket\/{ticket}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/ticket\/{ticket}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/ticket\/{ticket}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/restaurant\/own",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/restaurant\/own",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/restaurant\/online",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/restaurant\/online",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/restaurant\/online",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/restaurant\/online",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/restaurant\/slider\/remove",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/restaurant\/slider\/remove",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/restaurant",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/restaurant\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/restaurant",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/restaurant\/{restaurant}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/restaurant\/{restaurant}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/restaurant\/{restaurant}",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/restaurant\/{restaurant}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/restaurant\/{restaurant}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery-location",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery-location\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery-location",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery-location\/{delivery_location}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery-location\/{delivery_location}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery-location\/{delivery_location}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/delivery-location\/{delivery_location}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway-location",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway-location\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway-location",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway-location\/{takeaway_location}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway-location\/{takeaway_location}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway-location\/{takeaway_location}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/takeaway-location\/{takeaway_location}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/promotion",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/promotion\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/promotion",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/promotion\/{promotion}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/promotion\/{promotion}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/promotion\/{promotion}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/promotion\/{promotion}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/report\/data\/bar",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/report\/data\/bar",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/report\/data",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/report\/data",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/admin\/report",
+          "request": {
+            "url": "http:\/\/localhost\/admin\/report",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/restaurant\/request",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/restaurant\/request",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/restaurant\/get-request",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/restaurant\/get-request",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/restaurant\/get",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/restaurant\/get",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/restaurant\/deactive",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/restaurant\/deactive",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/restaurant",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/restaurant\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/restaurant",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/restaurant\/{restaurant}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/restaurant\/{restaurant}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/restaurant\/{restaurant}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/restaurant\/{restaurant}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/restaurant\/{restaurant}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/menu\/get",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu\/get",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/menu\/get\/items",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu\/get\/items",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/menu",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/menu",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu\/{menu}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu\/{menu}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu\/{menu}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu\/{menu}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/menu-item",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item\/{menu_item}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item\/{menu_item}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/menu-item\/{menu_item}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item\/{menu_item}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item\/{menu_item}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/menu-clone\/approve",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-clone\/approve",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/menu-clone\/get\/items",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-clone\/get\/items",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-clone",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-clone\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/menu-clone",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-clone",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-clone\/{menu_clone}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-clone\/{menu_clone}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-clone\/{menu_clone}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-clone\/{menu_clone}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/menu-item-clone\/approve",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item-clone\/approve",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item-clone",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item-clone\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item-clone",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item-clone\/{menu_item_clone}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item-clone\/{menu_item_clone}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item-clone\/{menu_item_clone}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/menu-item-clone\/{menu_item_clone}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/delivery-location",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/delivery-location",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/delivery-location\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/delivery-location",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/delivery-location\/{delivery_location}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/delivery-location\/{delivery_location}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/delivery-location\/{delivery_location}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/delivery-location\/{delivery_location}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/takeaway-location",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/takeaway-location",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/takeaway-location\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/takeaway-location",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/takeaway-location\/{takeaway_location}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/takeaway-location\/{takeaway_location}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/takeaway-location\/{takeaway_location}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/takeaway-location\/{takeaway_location}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/promotion",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/promotion\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/promotion",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/promotion\/{promotion}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/promotion\/{promotion}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/promotion\/{promotion}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/promotion\/{promotion}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/cuisine",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/cuisine\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/cuisine",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/cuisine",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/cuisine\/{cuisine}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/cuisine\/{cuisine}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/cuisine\/{cuisine}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/cuisine\/{cuisine}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/cuisine\/{cuisine}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/user\/get",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/user\/get",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/user\/restore",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/user\/restore",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/user",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/user\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/user",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/user\/{user}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/user\/{user}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/user\/{user}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/user\/{user}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/user\/{user}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/subscription\/get",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/subscription\/get",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/subscription",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/subscription\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/subscription",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/subscription\/{subscription}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/subscription\/{subscription}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/subscription\/{subscription}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/subscription\/{subscription}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/site-promotion",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/site-promotion\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/site-promotion",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/site-promotion",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/site-promotion\/{site_promotion}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/site-promotion\/{site_promotion}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/site-promotion\/{site_promotion}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/site-promotion\/{site_promotion}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/setting",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/setting\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/setting",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/setting\/{setting}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/setting\/{setting}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/setting\/{setting}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/setting\/{setting}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/admin-user\/get",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/admin-user\/get",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/admin-user\/restore",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/admin-user\/restore",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/admin-user\/profile",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/admin-user\/profile",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/admin-user\/profile\/post",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/admin-user\/profile\/post",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/admin-user",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/admin-user\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/admin-user",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/admin-user\/{admin_user}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/admin-user\/{admin_user}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/admin-user\/{admin_user}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/admin-user\/{admin_user}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/admin-user\/{admin_user}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/request\/get",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/get",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/request\/restaurant\/update",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/restaurant\/update",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/request\/restaurant\/{restaurant_id}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/restaurant\/{restaurant_id}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/request\/delivery\/update",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/delivery\/update",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/request\/delivery\/{restaurant_id}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/delivery\/{restaurant_id}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/request\/takeaway\/update",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/takeaway\/update",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/request\/takeaway\/{restaurant_id}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/takeaway\/{restaurant_id}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/request\/promotion\/update",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/promotion\/update",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/request\/promotion\/{restaurant_id}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/promotion\/{restaurant_id}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/request\/menu\/{restaurant_id}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/menu\/{restaurant_id}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/request\/menu-item\/{restaurant_id}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/menu-item\/{restaurant_id}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Store a newly created resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/{request}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/{request}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Update the specified resource in storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/{request}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Remove the specified resource from storage.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/request\/{request}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/report\/sales",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/report\/sales",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/report\/sales\/data",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/report\/sales\/data",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/report\/sales\/bar",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/report\/sales\/bar",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/report\/revenue",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/report\/revenue",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/report\/revenue\/data",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/report\/revenue\/data",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/report\/subscription",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/report\/subscription",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/report\/subscription\/data",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/report\/subscription\/data",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display a listing of the resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/payment-method",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for creating a new resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/payment-method\/create",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/payment-method",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/payment-method",
+            "method": "POST",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Display the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/payment-method\/{payment_method}",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "Show the form for editing the specified resource.",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/payment-method\/{payment_method}\/edit",
+            "method": "GET",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/payment-method\/{payment_method}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/payment-method\/{payment_method}",
+            "method": "PUT",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": []
+            },
+            "description": "",
+            "response": []
+          }
+        },
+        {
+          "name": "http:\/\/localhost\/master-admin\/payment-method\/{payment_method}",
+          "request": {
+            "url": "http:\/\/localhost\/master-admin\/payment-method\/{payment_method}",
+            "method": "DELETE",
+            "body": {
+              "mode": "formdata",
+              "formdata": []
+            },
+            "description": "",
+            "response": []
+          }
+        }
+      ]
+    }
+  ]
+}

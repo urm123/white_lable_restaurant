@@ -1,0 +1,165 @@
+@media (min-width: 768px) {
+    #signupModal .modal-dialog {
+        width: 474px;
+    }
+
+    #signinModal .modal-dialog {
+        width: 474px;
+    }
+
+    #forgotPasswordModal .modal-dialog {
+        width: 474px;
+    }
+}
+
+@media (max-width: 480px) {
+    .signin-form .forgot-password {
+        left: 352px !important;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .order-summary-box {
+        width: 100% !important;
+    }
+
+    .confirm-address .btn-confirm-order {
+        width: 100% !important;
+    }
+
+    .visa-card-label {
+        left: 309px !important;
+    }
+
+    .order-confirm-row img {
+        width: 100%;
+    }
+
+    .contact-icons {
+        margin-top: 20px;
+    }
+
+    .reservation-time p {
+        text-align: left !important;
+    }
+
+    .my-account-summary-box {
+        margin-top: 30px !important;
+    }
+
+    .contact-restaurant-row .contact-icons img {
+        padding-right: 25px !important;
+    }
+
+    .delivery-form .terms-check label {
+        font-size: 12px !important;
+    }
+
+    .main-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .contact-form .btn-confirm-order {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 481px) and  (max-width: 991px) {
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .order-summary-box {
+        width: 100% !important;
+    }
+
+    .confirm-address .btn-confirm-order {
+        width: 100% !important;
+    }
+
+    .visa-card-label {
+        left: 300px !important;
+    }
+
+    .order-confirm-row img {
+        width: 100%;
+    }
+
+    .contact-icons {
+        margin-top: 20px;
+    }
+
+    .contact-restaurant-row .contact-icons img {
+        padding-right: 25px !important;
+    }
+
+    .myaccount-payment .visa-card-label {
+        left: 665px !important;
+    }
+}
+
+/* ----------- iPad ----------- */
+
+/* Portrait */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    .myaccount-payment .visa-card-label {
+        left: 665px !important;
+    }
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    .order-summary-box {
+        width: 100% !important;
+    }
+
+    .confirm-address .btn-confirm-order {
+        width: 100% !important;
+    }
+
+    .visa-card-label {
+        left: 410px !important;
+    }
+
+    .order-summary-box .item-total {
+        font-size: 20px !important;
+    }
+
+    .order-confirm-row img {
+        width: 100%;
+    }
+
+    .contact-icons img {
+        padding-right: 9px !important;
+    }
+
+    .reservation-time p {
+        font-size: 14px;
+    }
+
+    .reservation-detail-box label {
+        font-size: 12px !important;
+    }
+
+    .myaccount-payment .visa-card-label {
+        left: 380px !important;
+    }
+}

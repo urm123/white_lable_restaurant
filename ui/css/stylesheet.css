@@ -1,0 +1,647 @@
+﻿/*Laxsi's CSS */
+
+/*header css start */
+.first-navbar{
+    background-color: #910D3F;
+    border-color: #910D3F;
+    min-height: 30px;
+    max-height: 30px;
+    height: 30px !important;
+}
+.second-navbar{
+    margin-top: 30px;
+    height: 60px;
+    background-color: #fff;
+    border: none;
+}
+.navbar-inverse .navbar-nav>li>a{
+    font-family: 'Nexa-Bold';
+    line-height: 18px;
+    font-size: 14px;
+    color: #F2F2F2;
+}
+.navbar-inverse.first-navbar .navbar-nav>li>a{
+    padding-top: 5px;
+}
+.navbar-brand>img{
+    margin-top: -9px;
+}
+.navbar-form .input-group-btn:first-child>.btn{
+    border: none;
+}
+.navbar-form .input-group>.form-control{
+    border: none;
+    font-family: 'Nexa-Bold';
+    line-height: 24px;
+    font-size: 16px;
+    color: #BDBDBD;
+    width: 615px;
+    box-shadow: none;
+}
+.navbar-form .input-group>.form-control ::placeholder{
+    font-family: 'Nexa-Bold';
+    line-height: 24px;
+    font-size: 16px;
+    color: #BDBDBD;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+/*header css end */
+
+/* Sign up CSS start */
+#signupModal .modal-content {
+    background: #FFFFFF;
+    border: 2px solid #FFC301;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.modal h2{
+    color: #000000;
+    text-align: center;
+    border-bottom: 1px solid #FFC301;
+    padding-bottom: 10px;
+}
+.yellow-hr{
+    border-top: 1px solid #FFC301; 
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.modal-content{
+    padding: 30px 30px;
+}
+.signin-form {
+    margin-top: 50px;
+}
+.signin-form label{
+    font-family: 'Nexa-Bold';
+    line-height: 17px;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.signin-form .form-control{
+    width:100%;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin-bottom: 30px;
+    font-family: 'Nexa-Bold';
+}
+::placeholder{
+    font-family: 'Nexa-Bold';
+    line-height: 17px;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-weight: normal;
+}
+.signin-form  select{
+    font-family: 'Nexa-Bold';
+    line-height: 17px;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-weight: normal;
+}
+.signin-form input[type=checkbox]{
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    vertical-align: middle;
+}
+.signin-form  .terms-check label{
+    font-family: 'Nexa-Bold';
+    line-height: 17px;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-weight: normal;
+    padding-left: 10px;
+}
+input#rememberme:checked:before {
+    /*position:absolute;*/
+    margin-left: 5px;
+    width:100%;
+    height:100%;
+    /*line-height:2em;*/
+    text-align:center;
+    color:#000;
+    content: '✘';
+}
+
+input#rememberme:checked:before {
+    content: '✔';
+}
+.signin-form .btn-signin {
+    background: #C7003B;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Nexa-Bold';
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 54px;
+}
+.signin-form h4{
+    font-family: 'Nexa-Bold';
+    line-height: 17px;
+    font-size: 14px;
+    text-align: center;
+    color: #000000;
+}
+.signin-form .social-signup{
+    margin-top: 30px;
+}
+.signin-form .social-signup label{
+    color: #828282;
+    padding-left: 20px;
+}
+/* Sign up CSS end */
+
+
+/* Sign in CSS start */
+
+.signin-form .no-account{
+    margin-top: 20px;
+}
+.signin-form .no-account h4{
+    color: #828282; 
+}
+.signin-form .no-account h4 a{
+    color: #C7003B;
+}
+
+#signinModal .modal-content {
+    background: #FFFFFF;
+    border: 2px solid #FFC301;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.signin-form .forgot-password {
+    position: absolute;
+    left: 272px;
+    top: 64px;
+}
+.signin-form .forgot-password a{
+    color: #910D3F;
+    font-size: 12px;
+    text-decoration: none;
+}
+/* Sign in CSS end */
+
+/* Reset Password CSS start */
+
+#forgotPasswordModal .modal-content {
+    background: #FFFFFF;
+    border: 2px solid #FFC301;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+/* Reset Password CSS end */
+
+/*Checkout- confirm address css start */
+
+.confirm-address{
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+.delivery-form h2{
+    color: #000;
+    margin-bottom: 30px;
+}
+.delivery-form label{
+    font-family: 'Nexa-Bold';
+    line-height: 17px;
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+.delivery-form .form-control{
+    width:100%;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 0;
+    margin-bottom: 20px;
+    font-family: 'Nexa-Bold';
+}
+.delivery-form  select{
+    font-family: 'Nexa-Bold';
+    line-height: 17px;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-weight: normal;
+}
+.delivery-form textarea {
+    height: auto !important;
+}
+.delivery-form input[type=checkbox]{
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    vertical-align: middle;
+}
+.delivery-form .terms-check label{
+    font-family: 'Nexa-Bold';
+    line-height: 17px;
+    font-size: 14px;
+    color: #BDBDBD;
+    font-weight: normal;
+    padding-left: 10px;
+}
+.panel-default>.panel-heading{
+    background: none;
+    padding: 20px 0px;
+}
+.panel-group .panel{
+    border:none;
+}
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings'; 
+    content: "\e114";    
+    float: right;        
+    color: grey;  
+}
+.panel-heading .accordion-toggle.collapsed:after {
+    content: "\e080";    
+}
+.panel-body{
+    padding: 10px 0px;
+}
+.visa-card-label{
+    position: absolute;
+    left: 515px;
+    top: 49px;
+}
+.panel-body .panel-row{
+    margin-top: 30px;
+}
+.cvv-text{
+    font-family: 'Nexa-Bold';
+    line-height: normal;
+    font-size: 8px;
+    color: #828282;
+    padding-top: 10px;
+}
+
+.item-quantity {
+    /*width: 100px;*/
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F2F2F2;
+    border-radius: 50px;
+}
+
+.value-button {
+    display: inline-block;
+    margin: 0px;
+    width: 6px;
+    height: 20px;
+    margin-bottom: 4px;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.value-button:hover {
+    cursor: pointer;
+}
+
+form #decrease {
+    margin-right: -4px;
+    border-radius: 8px 0 0 8px;
+}
+
+form #increase {
+    margin-left: -4px;
+    border-radius: 0 8px 8px 0;
+}
+
+form #input-wrap {
+    margin: 0px;
+    padding: 0px;
+}
+
+input#number {
+    text-align: center;
+    border: none;
+    margin: 0px;
+    width: 20px;
+    height: 20px;
+    background-color: #F2F2F2;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.order-summary-box .item-title, .order-summary-box .item-quantity, .order-summary-box .item-price{
+    font-family: 'Nexa-Bold';
+    line-height: 24px;
+    font-size: 16px;
+    color: #333333;
+}
+.delivery-form h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.order-item-row{
+    margin-bottom: 30px !important;
+}
+.order-item-subtotal-row{
+    margin-bottom: 10px !important;
+}
+.order-item-total-row {
+    margin-top: 30px !important;
+}
+.order-summary-box .item-sub-total{
+    font-family: 'Nexa-Bold';
+    line-height: 21px;
+    font-size: 16px;
+    color: #000;
+}
+.order-summary-box .item-price{
+    text-align: right;
+}
+.order-summary-box .item-total{
+    font-family: 'Nexa-Bold';
+    line-height: normal;
+    font-size: 26px;
+    color: #000;
+}
+.allergy-info-title{
+    margin-top: 30px;
+}
+.allergy-information{
+    font-family: 'Nexa-Bold';
+    line-height: 18px;
+    font-size: 14px;
+    color: #828282;
+}
+.order-summary-box{
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+    padding: 35px 15px;
+    width: 386px;
+}
+.order-summary-box .row{
+    margin: 0;
+}
+.allergy-row{
+    margin: 0 15px 0 15px!important;
+}
+.btn-confirm-order{
+    width: 386px !important;
+    margin-top: 40px;
+    background: #C7003B;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Nexa-Bold';
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 54px;
+}
+/*Checkout- confirm address css end */
+
+/*Checkout- Order confirm css start */
+.order-confirm-row{
+    margin-top: 30px;
+}
+
+.order-summary-box h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.order-status-row .order-status{
+    font-family: 'Nexa-Bold';
+    line-height: normal;
+    font-size: 18px;
+    color: #000000;
+}
+.progress{
+    height:2px;
+    margin: 35px 15px 10px !important;
+}
+.progress-bar{
+    height:2px;
+    background-color: #C7003B;
+}
+.progress-label{
+    font-size: 14px;
+}
+/*Checkout- Order confirm css end */
+
+
+/*My Account- My Orders Reservations css start */
+.main-breadcrumb {
+    background: none;
+    padding: 0;
+    margin-top: 40px;
+}
+.main-breadcrumb ul{
+    margin-left: -25px;
+}
+.main-breadcrumb li {
+    float: left;
+    list-style: none;
+    font-family: 'Nexa-Bold';
+    line-height: normal;
+    font-size: 18px;
+    color: #828282;
+}
+.main-breadcrumb li a{
+    color: #828282;
+    margin-right: 40px;
+}
+.main-breadcrumb li.active a {
+    color: #C7003B;
+}
+
+.sub-breadcrumb {
+    background: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.sub-breadcrumb ul{
+    margin-left: -25px;
+}
+.sub-breadcrumb li {
+    float: left;
+    list-style: none;
+    font-family: 'Nexa-Bold';
+    line-height: normal;
+    font-size: 18px;
+    color: #BDBDBD;
+}
+.sub-breadcrumb li a{
+    color: #BDBDBD;
+    margin-right: 40px;
+}
+.sub-breadcrumb li.active a {
+    color: #910D3F;
+    text-decoration: underline;
+}
+.breadcrumb-hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.reservations-row h3{
+    color: #000000;
+    margin-bottom: 30px;
+}
+.reservations-row p{
+    margin: 0;
+}
+.contact-icons{
+    margin-bottom: 30px;
+}
+.contact-icons img{
+    padding-right: 20px;
+}
+.reservation-time p{
+    color: #4F4F4F;
+    text-align: right;
+}
+.reservation-time p img{
+    padding-left: 10px;
+}
+.reservations-section .yellow-hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reservation-detail-box{
+    background: #910D3F;
+    padding: 10px;
+}
+.reservation-detail-box img{
+    min-height:  50px;
+    padding-bottom: 20px;
+}
+.reservation-detail-box label{
+    font-family: 'Nexa-Bold';
+    line-height: 17px;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.confirmed-row{
+    margin-top: 30px !important;
+}
+.confirmed-row h3{
+    color: #000000;
+}
+.confirmed-row p{
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+}
+.contact-restaurant-row{
+    margin: 15px 15px 0 15px!important;
+}
+.contact-restaurant-row .contact-icons{
+    margin-top: 15px;
+}
+.contact-restaurant-row .contact-icons img{
+    padding-right: 57px;
+}
+.my-account-summary-box{
+    margin-top: 120px;
+}
+/*My Account- My Orders Reservations css end */
+
+/*My Account- My Favourites css start */
+.my-favourites-row{
+    margin-top: 30px;
+}
+.favourites-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.favourites-card img{
+    width:100%;
+}
+.favourites-card h3{
+    padding: 10px 10px 5px;
+}
+.favourites-card p{
+    font-size: 14px;
+    color: #4F4F4F;
+    padding: 0 10px;
+}
+.favourites-card .client-rating{
+    padding: 0 10px 20px;
+}
+/*My Account- My Favourites css end */
+
+
+/*My Account- My Details - Profile css start */
+.btn-save-changes{
+    background: #C7003B;
+    border-radius: 5px;
+    width: 100%;
+    font-family: 'Nexa-Bold';
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    height: 54px;
+    margin-top: 10px;
+}
+/*My Account- My Details - Profile css end */
+
+/*My Account- My Details - Address css start */
+.add-address{
+    margin-top: 100px;
+}
+.add-address input[type=checkbox]{
+    vertical-align: top;
+}
+.add-address address{
+    font-family: 'Nexa-Bold';
+    line-height: 18px;
+    font-size: 14px;
+    color: #333333;
+}
+/*My Account- My Details - Address css end */
+
+/*My Account- My Details - Communications preferences css start */
+.my-accounts-terms-check label{
+    color: #333333 !important;
+}
+/*My Account- My Details - Communications preferences css end */
+
+/*My Account- My Details - Payments css start */
+.myaccount-payment .visa-card-label{
+    left: 475px;
+}
+.add-payment-method{
+    margin-top: 100px;
+}
+.add-payment-method .terms-check img{
+    padding-right: 10px;
+}
+.add-payment-method .terms-check label{
+    color: #333333;
+}
+.myaccount-payment .panel{
+    box-shadow: none;
+}
+/*My Account- My Details - Payments css end */

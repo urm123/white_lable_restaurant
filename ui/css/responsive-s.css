@@ -1,0 +1,93 @@
+@media(max-width:765px){
+	.navbar-toggle {
+	    border-color: #910D3F !important;
+	    margin-top: -39px;
+	    background-color: #910D3F;
+	}
+	.banner-text h1 {
+	    line-height: 42px !important;
+	    font-size: 32px !important;
+	    padding: 80px 10px 40px !important;
+	}
+	.search-text p{
+		font-size: 10px;
+	}
+	.button-find{
+		margin-top: 40px !important;
+		margin: auto;
+		display: block;
+	}
+	.banner-section{
+		min-height: 604px !important;
+	}
+	#dropdown-content-delivery{
+		position: absolute;
+		margin-top: -114px !important;
+		margin-left: 207px !important;
+		border-radius: 5px !important;
+		font-size: 10px !important;
+		padding: 2px !important;
+	}
+	.index-content h2{
+		font-size: 20px !important;
+		margin-bottom: 40px !important;
+	}
+	.index-content-mob{
+		margin-bottom: 25px !important;
+	}
+	.button-view-all{margin-top: 0px !important;}
+	.index-second-content {
+    	margin-top: 50px !important;
+	}
+	.mobile-app-cta h1 {
+	    line-height: 46px !important;
+	    font-size: 30px !important;
+	    margin-top: 544px !important;
+	}
+	.mobile-app-cta p{margin: 30px 0 !important;}
+	.ph1 {display: none !important;}
+	.ph2{display: none !important;}
+	.new-padding {
+    	padding: 0 !important;
+	}
+	.join-us h1 {padding: 50px 20px 25px !important;}
+	.join-us p {padding: 0 32px 36px !important;}
+	.footer-image {margin-left: -20px !important;}
+	footer h1 {padding: 50px 0 37px !important;}
+	.index-second-content ul{margin-left: 0px !important;}
+	.index-second-content ul li{margin-left: 0px !important; margin-bottom: 15px !important;}
+	.resturant-list-head {font-size: 15px !important;}
+	.sorted-list1{margin-bottom: 20px;}
+	.sorted-list2{margin-bottom: 20px;}
+	.map-marker-text {text-align: left !important;}
+	/*.map-marker-text p{margin-top: 25px !important;}*/
+	.opening-details {margin-top: -41px !important; text-align: right !important;}
+	.map-marker-text1{margin-top: 30px !important;}
+	.resturant-list-detail h3 { margin-top: 15px !important;}
+	.delivery-selection {margin-top: 25px !important;}
+	.resturant-list {margin-bottom: 50px !important;}
+	.individual-resturant {    margin-top: 85px !important;}
+	.individual-resturant h1 { font-size: 37px !important;}
+	.pre-order-head {    margin-left: 4px !important;}
+	.favorite {margin-right: 25px; margin-left: 0px !important;}
+	.indi-res-section {margin-top: 40px !important;}
+	.main-list {margin-left: -37px !important;}
+	.main-list li { margin-left: 0px !important;     margin-right: 23px !important;}
+	.sub-list {margin-left: -49px !important; margin-bottom: 40px !important;}
+	.menu-item-list h1 {margin-bottom: 20px !important;}
+	.menu-item-list h2 {margin-top: 20px !important; margin-bottom: 20px !important;}
+	.menu-item-list { margin-top: 0px !important;}
+	.menu-items {margin-bottom: 40px !important;}
+	.contact-restaurant-row .contact-icons img {    padding-right: 40px !important;}
+	.order-summary-box { width: 100% !important;}
+	.order-reservation {padding: 0px !important;}
+	.menu-images { margin-left: -2px !important; margin-top: 66px !important;}
+	.review-box h2 {    margin: 10px auto !important;}
+	.col-md-15 {
+    width: 100% !important; }
+    .col-md-15 #overlay img{display: block; margin: auto;}
+    .bottom-left{bottom: 173px !important; left: 145px !important;}
+}
+@media(min-width: 1024px){
+	.menu-images {width: 80px !important;}
+}

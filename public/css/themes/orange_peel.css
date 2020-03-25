@@ -1,0 +1,508 @@
+.header.navbar {
+    border-top: 30px solid #fea100;
+}
+
+.header.navbar .navbar-brand {
+    color: #fea100;
+}
+
+.header.navbar .navbar-brand span {
+    color: #fea100;
+}
+
+.header.navbar .navbar-collapse ul li.sign-in button:hover {
+    color: #fea100;
+    background: none;
+    border: 1px solid transparent;
+}
+
+.header.navbar .navbar-collapse ul li a {
+    color: #2c465a;
+}
+
+.header.navbar .navbar-collapse ul li a:hover {
+    color: #fea100 !important;
+}
+
+.header.navbar .navbar-collapse ul li.active > a {
+    color: #fea100;
+}
+
+.header.navbar .navbar-collapse ul li.sign-up button {
+    background: #fea100;
+}
+
+.header.navbar .navbar-collapse ul li.sign-in button {
+    color: #fea100;
+}
+
+.header.navbar .navbar-collapse ul li.sign-in button:hover {
+    color: #fea100;
+}
+
+.search-text .btn-group {
+    color: #fea100;
+}
+
+.search-text .btn-group .btn {
+    color: #fea100;
+}
+
+.search-text .btn-group .dropdown-menu li {
+    color: #fea100;
+}
+
+.delivery {
+    color: #fea100 !important;
+}
+
+#dropdown-content-delivery {
+    color: #fea100 !important;
+}
+
+.button-find {
+    background-color: #fea100;
+    border: 1px solid #fea100;
+}
+
+.client-rating i.active {
+    color: #fea100 !important;
+}
+
+.client-rating i {
+    color: #6e6e6e !important;
+}
+
+.button-view-all {
+    background-color: #fea100;
+    border: 1px solid #fea100;
+}
+
+.button-view-all:hover {
+    color: #fea100;
+}
+
+.mobile-app-cta h1 {
+    color: #fea100;
+}
+
+.join-us button {
+    background-color: #fea100;
+    border: 1px solid #fea100;
+}
+
+footer {
+    background-color: #373844;
+}
+
+footer ul li a {
+    color: #adb2b7 !important;
+}
+
+footer h1 {
+    color: #fea100;
+}
+
+.social ul li a i {
+    background-color: #fea100;
+    color: #5A1846 !important;
+}
+
+.text-heighlight {
+    color: #fea100 !important;
+}
+
+.sorted-list {
+    background: #5A1846;
+}
+
+.pre-order {
+    color: #ffffff;
+    background: #fea100;
+}
+
+.pre-order-head {
+    color: #F2F2F2;
+    background: #fea100;
+}
+
+.main-list li a.active {
+    color: #fea100;
+}
+
+.sub-list li {
+    color: #666;
+}
+
+.sub-list li a {
+    color: #fea100 !important;
+}
+
+.sub-list .active {
+    background-color: #fea100;
+    color: #FFFFFF !important;
+}
+
+.sub-list .active a {
+    color: #FFFFFF !important;
+}
+
+.sub-list li:hover {
+    background-color: #fea100;
+}
+
+.sub-list li:hover a {
+    color: #ffffff !important;
+}
+
+.text-highlight {
+    color: #fea100;
+}
+
+.round label {
+    background-color: #fff;
+    border: 2px solid #fea100;
+}
+
+.round input[type="checkbox"]:checked + label {
+    background-color: #fea100;
+    border-color: #fea100;
+}
+
+.order-reservation-button {
+    background: #fea100;
+    border: 1px solid #fea100;
+    color: #fff;
+}
+
+.order-reservation-button:hover {
+    background: #d38a0c;
+    border: 1px solid #d38a0c;
+    color: #ffffff !important;
+}
+
+.privacy {
+    color: #828282;
+}
+
+.privacy-high {
+    color: #051181;
+}
+
+.yellow {
+    border: 1px solid #fea100;
+}
+
+.delivery-text {
+    color: #000000;
+    background-color: #fea100;
+}
+/*
+
+.review-head h1 i {
+    color: #fea100;
+}
+
+.restaurant-rating .progress-bar {
+    background: #fea100;
+}
+
+.review-box .client-rating i {
+    color: #fea100 !important;
+}
+
+*/
+
+.view-selection a {
+    color: #fea100;
+}
+
+.list h2 a {
+    color: #ffffff;
+    background: #fea100;
+}
+
+.grid h2 a {
+    color: #ffffff;
+    background: #fea100;
+}
+
+.list h1 a {
+    color: #ffffff;
+    background: #fea100;
+}
+
+.grid h1 a {
+    color: #ffffff;
+    background: #fea100;
+}
+
+.order-summary-box.order-reservation table td a {
+    color: #fea100;
+}
+
+.order-summary-box.order-reservation .btn {
+    background: #fea100;
+    color: #ffffff;
+}
+
+.order-summary-box.order-reservation .btn:hover {
+    background: #d38a0c;
+    border: 1px solid #d38a0c;
+    color: #ffffff !important;
+}
+
+.slick-prev, .slick-next {
+    background: #fff !important;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: #fea100 !important;
+}
+
+.mydetail-bread {
+    border: 1px solid #fea100;
+}
+
+.jconfirm.jconfirm-error .jconfirm-box .jconfirm-title-c {
+    color: #ff0a22;
+}
+
+.jconfirm.jconfirm-error .jconfirm-box .jconfirm-content li::before {
+    color: #ff0a22;
+}
+
+
+.jconfirm.jconfirm-error .jconfirm-box .jconfirm-buttons button.btn-default {
+    background: #ff0a22;
+    color: #ffffff;
+}
+
+.jconfirm.jconfirm-error .jconfirm-box .jconfirm-buttons button.btn-default:hover {
+    background: #ffffff;
+    color: #ff0a22;
+    border: 1px solid #ff0a22;
+}
+
+.jconfirm.jconfirm-success .jconfirm-box .jconfirm-content li::before {
+    color: #fea100;
+}
+
+.jconfirm.jconfirm-success .jconfirm-box .jconfirm-buttons button.btn-default {
+    background: #fea100;
+    color: #ffffff;
+}
+
+.jconfirm.jconfirm-success .jconfirm-box .jconfirm-buttons button.btn-default:hover {
+    background: #ffffff;
+    color: #fea100;
+    border: 1px solid #39b54a;
+}
+
+#addons-modal .modal-header .close {
+    color: #fea100;
+}
+
+#addons-modal .table > tbody > tr > td input {
+    border: 1px solid #444444;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    background: white;
+}
+
+#addons-modal .modal-footer button {
+    background: #fea100;
+}
+
+#login-tabs a {
+    background: #eeeeee;
+    color: #fea100;
+}
+
+#login-tabs a.active {
+    color: #eeeeee;
+    background: #fea100;
+}
+
+.restaurant-promotion {
+    color: #fea100;
+}
+
+.discount-wrapper {
+    color: #fea100;
+}
+
+#card-element {
+    border: 1px solid #fea100;
+}
+
+.loader {
+    background-color: rgba(0,0,0,0.9);
+}
+
+.sk-cube-grid .sk-cube {
+    background-color: #fea100;
+}
+
+.home-slider .hero-content .hero-buttons a.order {
+    background: #fea100;
+}
+
+.home-slider .hero-content .hero-buttons a.order:hover {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}
+
+.home-slider .hero-content .hero-buttons a.reservation:hover {
+    color: #000000 !important;
+    background-color: #ffffff !important;
+}
+
+.menu-item .image button {
+    color: #fea100;
+    background: white;
+    border-color: #fea100;
+}
+
+.menu-item .details button {
+    background: #fea100;
+}
+
+.home-reservation .row .col-xs-12 .sub-title button {
+    background: #fea100;
+}
+
+footer .row .col-xs-12 .container-fluid h3 {
+    color: #FFFFFF;
+}
+
+.home-reservation .btn:hover {
+    background: #d38a0c !important;
+    border: 1px solid #d38a0c;
+}
+
+a:hover {
+    color: #fea100 !important;
+}
+
+.order-summary-box a:hover {
+    color: #fea100 !important;
+}
+
+.btn:hover {
+    border: 1px solid #d38a0c;
+    background: #d38a0c;
+}
+.signin-form .btn-signin {
+    background: #fea100;
+}
+
+@media (max-width: 765px) {
+    .navbar-toggle {
+        border-color: #fea100 !important;
+        background-color: #fea100 !important;
+    }
+}
+@media (max-width: 767px) {
+    .header.navbar .navbar-collapse ul li.sign-in button {
+        color: white;
+        background: #fea100 !important;
+    }
+
+    .header.navbar .navbar-collapse ul li.sign-in button:hover {
+        color: #ffffff;
+        border: 1px solid #fea100;
+    }
+
+    .header.navbar .navbar-collapse ul li.sign-up button {
+        border: 1px solid #fea100;
+    }
+}
+
+#signupModal .modal-content {
+    border: 2px solid #fea100;
+}
+
+.modal h2 {
+    border-bottom: 1px solid #fea100;
+}
+.yellow-hr {
+    border-top: 1px solid #fea100;
+}
+
+#signinModal .modal-content {
+    border: 2px solid #fea100;
+}
+
+.signin-form .no-account h4 a {
+    color: #fea100;
+}
+
+.signin-form .no-account h4 a:hover {
+    color: #fea100 !important;
+}
+
+.signin-form .forgot-password a {
+    color: #fea100;
+}
+
+.signin-form .forgot-password a:hover {
+    color: #fea100!important;
+}
+
+#forgotPasswordModal .modal-content {
+    border: 2px solid #fea100;
+}
+
+.reservation-detail-box {
+    background: #fea100;
+}
+
+.main-breadcrumb li.active a {
+    color: #fea100;
+}
+
+.review-form button {
+    background: #fea100;
+    border: 1px solid #fea100;
+}
+
+.sub-breadcrumb li.active a {
+    color: #fea100;
+}
+.btn-confirm-order {
+    background: #fea100 !important;
+}
+
+.btn-confirm-order.btn-success {
+    background-color: #fea100;
+    border-color: #fea100;
+}
+
+.value-button {
+    color: #fea100;
+}
+
+.btn-success {
+    background-color: #fea100;
+    border-color: #fea100;
+}
+
+.btn-save-changes {
+    background-color: #fea100 !important;
+}
+
+.btn-success:active {
+    background-color: #fea100 !important;
+    border-color: #fea100 !important;
+}
+
+#login-tabs a:hover {
+    color: #ffffff !important;
+    background: #fea100;
+}
+
+.btn-primary {
+    background-color: #fea100 !important;
+    border-color: #fea100 !important;
+}

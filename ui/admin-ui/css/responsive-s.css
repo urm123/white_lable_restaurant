@@ -1,0 +1,143 @@
+@media(max-width:765px){
+	.navbar-toggle {
+	    border-color: #910D3F !important;
+	    margin-top: -39px;
+	    background-color: #910D3F;
+	}
+	.banner-text h1 {
+	    line-height: 42px !important;
+	    font-size: 32px !important;
+	    padding: 80px 10px 40px !important;
+	}
+	.search-text p{
+		font-size: 10px;
+	}
+	.button-find{
+		margin-top: 40px !important;
+		margin: auto;
+		display: block;
+	}
+	.banner-section{
+		min-height: 604px !important;
+	}
+	#dropdown-content-delivery{
+		position: absolute;
+		margin-top: -114px !important;
+		margin-left: 207px !important;
+		border-radius: 5px !important;
+		font-size: 10px !important;
+		padding: 2px !important;
+	}
+	.index-content h2{
+		font-size: 20px !important;
+		margin-bottom: 40px !important;
+	}
+	.index-content-mob{
+		margin-bottom: 25px !important;
+	}
+	.button-view-all{margin-top: 0px !important;}
+	.index-second-content {
+    	margin-top: 50px !important;
+	}
+	.mobile-app-cta h1 {
+	    line-height: 46px !important;
+	    font-size: 30px !important;
+	    margin-top: 544px !important;
+	}
+	.mobile-app-cta p{margin: 30px 0 !important;}
+	.ph1 {display: none !important;}
+	.ph2{display: none !important;}
+	.new-padding {
+    	padding: 0 !important;
+	}
+	.join-us h1 {padding: 50px 20px 25px !important;}
+	.join-us p {padding: 0 32px 36px !important;}
+	.footer-image {margin-left: -20px !important;}
+	footer h1 {padding: 50px 0 37px !important;}
+	.index-second-content ul{margin-left: 0px !important;}
+	.index-second-content ul li{margin-left: 0px !important; margin-bottom: 15px !important;}
+	.resturant-list-head {font-size: 15px !important;}
+	.sorted-list1{margin-bottom: 20px;}
+	.sorted-list2{margin-bottom: 20px;}
+	.map-marker-text {text-align: left !important;}
+	/*.map-marker-text p{margin-top: 25px !important;}*/
+	.opening-details {margin-top: -41px !important; text-align: right !important;}
+	.map-marker-text1{margin-top: 30px !important;}
+	.resturant-list-detail h3 { margin-top: 15px !important;}
+	.delivery-selection {margin-top: 25px !important;}
+	.resturant-list {margin-bottom: 50px !important;}
+	.individual-resturant {    margin-top: 85px !important;}
+	.individual-resturant h1 { font-size: 37px !important;}
+	.pre-order-head {    margin-left: 4px !important;}
+	.favorite {margin-right: 25px; margin-left: 0px !important;}
+	.indi-res-section {margin-top: 40px !important;}
+	.main-list {margin-left: -37px !important;}
+	.main-list li { margin-left: 0px !important;     margin-right: 23px !important;}
+	.sub-list {margin-left: -49px !important; margin-bottom: 40px !important;}
+	.menu-item-list h1 {margin-bottom: 20px !important;}
+	.menu-item-list h2 {margin-top: 20px !important; margin-bottom: 20px !important;}
+	.menu-item-list { margin-top: 0px !important;}
+	.menu-items {margin-bottom: 40px !important;}
+	.contact-restaurant-row .contact-icons img {    padding-right: 40px !important;}
+	.order-summary-box { width: 100% !important;}
+	.order-reservation {padding: 0px !important;}
+	.menu-images { margin-left: -2px !important; margin-top: 66px !important;}
+	.review-box h2 {    margin: 10px auto !important;}
+	.col-md-15 {
+    width: 100% !important; }
+    .col-md-15 #overlay img{display: block; margin: auto;}
+    .bottom-left{bottom: 173px !important; left: 145px !important;}
+    .banner-text p{padding: 0 13px !important;}
+    .button-signup-admin{padding: 20px 0 !important;}
+    .navbar-nav{width: 40%;
+		background: #910D3F;
+		z-index: 1;
+		margin-top: 74px;
+		text-align: right;
+	}
+	.navbar-brand > img{
+		width: 75%;
+	}
+	.res-head{margin-left: -75px !important;}
+	.modal-content-new-order{padding: 25px !important; width: 75% !important;}
+	.view-order-modal .modal-dialog{width: 91% !important;}
+	.view-order-modal h3{font-size: 16px !important;}
+	.printer { margin-left: 0px !important;}
+	.update-order-modal-btn {padding: 10px 10px !important;}
+	.view-order-modal p{font-size: 11px !important;} .view-order-modal h4{font-size: 11px !important;}
+	.rejected-modal p{margin-top: 10px !important;}
+	.res-admin-side{margin-top: 100px;}
+	.side-bar-ad ul{padding-left: 0 !important;}
+	.select-box select {padding: 19px 9px !important;}
+	.sort{margin-left: 5px !important;}
+	.select-box select {padding: 19px 9px !important;}
+	select{font-size: 12px !important;}
+	.order-price h3{margin-top: 0 !important;}
+	.order-status {margin-top: 0 !important; margin-left: 20px !important;}
+	.order-price {margin-left: 20px !important;}
+	.add-new-item-modal .modal-dialog { width: 106% !important;}
+	.modal{top: 22px !important;}
+	.select-box1 select{margin-bottom: 20px !important; margin-top: 20px !important;
+	  padding: 19px 25px 19px 9px !important;}
+	.select-box1{background-color: #BDBDBD !important;margin: auto !important;}
+	.table-report{margin-top: 250px;}
+	.select-box1 h4{padding: 10px;}
+	.select-box1 .p{margin-left: 28px !important; margin-right: 28px !important;}
+	.table-report_res_review{margin-top: 100px !important;}
+	.review-response-modal .modal-dialog {    width: 105% !important;}
+	.button-add-card {margin-top: 10px;}
+	.profile-head{margin: 11px auto 27px 22px !important;}
+	.profile_class-section .switch {margin-top: 20px !important;}
+	.profile_admin_btn{margin-top: 10px !important;}
+	.switch_promotion {margin-left: 15px !important;}
+	.switch_promotion1 {    margin-left: 0px !important;    margin-top: 10px;}
+	.switch_promotion2 {    margin-left: 15px !important;}
+
+@media(min-width: 1024px){
+	.menu-images {width: 80px !important;}
+	.contact-icons img {    padding-right: 20px !important;}
+	.res-admin{margin-top: 85px !important;}
+	.container {width: 1300px;}
+	.side-bar-ad ul {margin-left: -39px;}
+
+}

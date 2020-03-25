@@ -1,0 +1,1029 @@
+@media (max-width: 765px) {
+    .navbar-toggle {
+        border-color: #2a8f38 !important;
+        margin-top: -39px;
+        background-color: #2a8f38;
+    }
+
+    .select-box1 input {
+        padding: 19px 0px 19px 9px !important;
+    }
+
+    #menus .sort {
+        margin-left: 0px !important;
+    }
+
+    #menus .on-off {
+        margin: auto;
+    }
+
+    #menus .switch1 {
+        margin-top: 15px;
+    }
+
+    #takeaways .sort {
+        margin-left: 15px !important;
+    }
+
+    #reviews .select-box1 input {
+        margin-left: 0 !important;
+        margin-top: 10px !important;
+    }
+
+    #reviews .table-report_res_review {
+        margin-top: 133px !important;
+    }
+
+    #reservations .select-box select {
+        padding: 19px 20px !important;
+        background-position-y: 15px !important;
+    }
+
+    #reservations .order-date {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    #reservations .or-ad-status h3 {
+        margin-top: 0 !important;
+        margin-left: 15px;
+    }
+
+    .order-status-modal-first h3 {
+        margin-bottom: 15px;
+    }
+
+    #menus .add-new {
+        margin-left: 0 !important;
+        margin-right: 22px;
+    }
+
+    #menus input {
+        margin-left: 0px !important;
+    }
+
+    #menus select {
+        margin-left: 0px !important;
+    }
+
+    #reviews input {
+        margin-left: 0px !important;
+    }
+
+    #tickets .select-box1 select {
+        margin-left: 0 !important;
+        margin-right: 15px !important;
+    }
+
+    #tickets .select-box1 input {
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-left: 0px !important;
+    }
+
+    .profile_class input {
+        margin-left: 0px !important;
+    }
+
+    .profile_class select {
+        margin-left: 0px !important;
+    }
+
+    .profile_class-section .switch {
+        margin-left: -15px !important;
+    }
+
+    .delivery_admin input {
+        margin-left: 0px !important;
+    }
+
+    .delivery_admin-section1 .profile_admin_btn {
+        margin-left: 15px !important;
+    }
+
+    .profile-ph .filter-greybox {
+        height: 60px !important;
+    }
+
+    .spl-discount-h1 {
+        padding-left: 15px !important;
+        font-size: 15px !important;
+    }
+
+    .banner-text h1 {
+        line-height: 42px !important;
+        font-size: 32px !important;
+        padding: 80px 10px 40px !important;
+    }
+
+    .search-text p {
+        font-size: 10px;
+    }
+
+    .button-find {
+        margin-top: 40px !important;
+        margin: auto;
+        display: block;
+    }
+
+    .banner-section {
+        min-height: 604px !important;
+    }
+
+    #dropdown-content-delivery {
+        position: absolute;
+        margin-top: -114px !important;
+        margin-left: 207px !important;
+        border-radius: 5px !important;
+        font-size: 10px !important;
+        padding: 2px !important;
+    }
+
+    .index-content h2 {
+        font-size: 20px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .index-content-mob {
+        margin-bottom: 25px !important;
+    }
+
+    .button-view-all {
+        margin-top: 0px !important;
+    }
+
+    .index-second-content {
+        margin-top: 50px !important;
+    }
+
+    .mobile-app-cta h1 {
+        line-height: 46px !important;
+        font-size: 30px !important;
+        margin-top: 544px !important;
+    }
+
+    .mobile-app-cta p {
+        margin: 30px 0 !important;
+    }
+
+    .ph1 {
+        display: none !important;
+    }
+
+    .ph2 {
+        display: none !important;
+    }
+
+    .new-padding {
+        padding: 0 !important;
+    }
+
+    .join-us h1 {
+        padding: 50px 20px 25px !important;
+    }
+
+    .join-us p {
+        padding: 0 32px 36px !important;
+    }
+
+    .footer-image {
+        margin-left: -20px !important;
+    }
+
+    footer h1 {
+        padding: 50px 0 37px !important;
+    }
+
+    .index-second-content ul {
+        margin-left: 0px !important;
+    }
+
+    .index-second-content ul li {
+        margin-left: 0px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .resturant-list-head {
+        font-size: 15px !important;
+    }
+
+    .sorted-list1 {
+        margin-bottom: 20px;
+    }
+
+    .sorted-list2 {
+        margin-bottom: 20px;
+    }
+
+    .map-marker-text {
+        text-align: left !important;
+    }
+
+    /*.map-marker-text p{margin-top: 25px !important;}*/
+    .opening-details {
+        margin-top: -41px !important;
+        text-align: right !important;
+    }
+
+    .map-marker-text1 {
+        margin-top: 30px !important;
+    }
+
+    .resturant-list-detail h3 {
+        margin-top: 15px !important;
+    }
+
+    .delivery-selection {
+        margin-top: 25px !important;
+    }
+
+    .resturant-list {
+        margin-bottom: 50px !important;
+    }
+
+    .individual-resturant {
+        margin-top: 85px !important;
+    }
+
+    .individual-resturant h1 {
+        font-size: 37px !important;
+    }
+
+    .pre-order-head {
+        margin-left: 4px !important;
+    }
+
+    .favorite {
+        margin-right: 25px;
+        margin-left: 0px !important;
+    }
+
+    .indi-res-section {
+        margin-top: 40px !important;
+    }
+
+    .main-list {
+        margin-left: -37px !important;
+    }
+
+    .main-list li {
+        margin-left: 0px !important;
+        margin-right: 23px !important;
+    }
+
+    .sub-list {
+        margin-left: -49px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .menu-item-list h1 {
+        margin-bottom: 20px !important;
+    }
+
+    .menu-item-list h2 {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .menu-item-list {
+        margin-top: 0px !important;
+    }
+
+    .menu-items {
+        margin-bottom: 40px !important;
+    }
+
+    .contact-restaurant-row .contact-icons img {
+        padding-right: 40px !important;
+    }
+
+    .order-summary-box {
+        width: 100% !important;
+    }
+
+    .order-reservation {
+        padding: 0px !important;
+    }
+
+    .menu-images {
+        margin-left: -2px !important;
+        margin-top: 66px !important;
+    }
+
+    .review-box h2 {
+        margin: 10px auto !important;
+    }
+
+    .col-md-15 {
+        width: 100% !important;
+    }
+
+    .col-md-15 #overlay img {
+        display: block;
+        margin: auto;
+    }
+
+    .bottom-left {
+        bottom: 173px !important;
+        left: 145px !important;
+    }
+
+    .banner-text p {
+        padding: 0 13px !important;
+    }
+
+    .button-signup-admin {
+        padding: 20px 0 !important;
+    }
+
+    .navbar-nav {
+        width: 110%;
+        background: #2a8f38;
+        z-index: 1;
+        margin-top: 74px;
+        text-align: left;
+    }
+
+    .navbar-brand > img {
+        width: 75%;
+    }
+
+    .res-head {
+        margin-left: -75px !important;
+    }
+
+    .modal-content-new-order {
+        padding: 25px !important;
+        width: 75% !important;
+    }
+
+    .view-order-modal .modal-dialog {
+        width: 91% !important;
+    }
+
+    .view-order-modal h3 {
+        font-size: 16px !important;
+        margin-left: 15px;
+    }
+
+    #takeaways .sort {
+        margin-left: 16px !important;
+    }
+
+    #menus .sort {
+        margin-left: 15px !important;
+    }
+
+    .printer {
+        margin-left: 20px !important;
+        margin-right: 10px !important;
+    }
+
+    .update-order-modal-btn {
+        padding: 10px 10px !important;
+    }
+
+    .view-order-modal p {
+        font-size: 11px !important;
+    }
+
+    .view-order-modal h4 {
+        font-size: 11px !important;
+    }
+
+    .rejected-modal p {
+        margin-top: 10px !important;
+    }
+
+    /*.res-admin-side {
+        margin-top: 100px;
+    }*/
+    .side-bar-ad ul {
+        padding-left: 0 !important;
+    }
+
+    .select-box select {
+        padding: 19px 9px !important;
+    }
+
+    .sort {
+        margin-left: 5px !important;
+    }
+
+    #deliveries .sort {
+        margin-left: 14px !important;
+    }
+
+    .select-box select {
+        padding: 19px 13px !important;
+    }
+
+    select {
+        font-size: 12px !important;
+    }
+
+    .order-price h3 {
+        margin-top: 0 !important;
+    }
+
+    .order-status {
+        margin-top: 0 !important;
+        margin-left: 20px !important;
+    }
+
+    .order-price {
+        margin-left: 20px !important;
+    }
+
+    .add-new-item-modal .modal-dialog {
+        width: 106% !important;
+    }
+
+    .modal {
+        top: 22px !important;
+    }
+
+    .select-box1 select {
+        margin-bottom: 20px !important;
+        margin-top: 20px !important;
+        padding: 19px 25px 19px 9px !important;
+    }
+
+    .select-box1 {
+        background-color: #BDBDBD !important;
+        margin: auto !important;
+    }
+
+    .table-report {
+        margin-top: 250px;
+    }
+
+    .select-box1 h4 {
+        padding: 10px;
+    }
+
+    .select-box1 .p {
+        margin-left: 28px !important;
+        margin-right: 28px !important;
+    }
+
+    .table-report_res_review {
+        margin-top: 100px !important;
+    }
+
+    .review-response-modal .modal-dialog {
+        width: 105% !important;
+    }
+
+    .button-add-card {
+        margin-top: 10px;
+    }
+
+    .profile-head {
+        margin: 11px auto 27px 22px !important;
+    }
+
+    .profile_class-section .switch {
+        margin-top: 20px !important;
+    }
+
+    .profile_admin_btn {
+        margin-top: 10px !important;
+    }
+
+    .switch_promotion {
+        margin-left: 15px !important;
+    }
+
+    .switch_promotion1 {
+        margin-left: 0px !important;
+        margin-top: 10px;
+    }
+
+    .switch_promotion2 {
+        margin-left: 15px !important;
+    }
+
+    .button-signup-admin {
+        margin-bottom: 20px !important;
+    }
+
+    .res-head {
+        font-size: 15px !important;
+    }
+
+    .select-box input {
+        margin-bottom: 15px;
+    }
+
+    .sort {
+        float: left !important;
+        margin-top: -22px;
+    }
+
+    .filter-greybox {
+        height: 175px !important;
+    }
+
+    .order-date {
+        margin-left: 19px;
+    }
+
+    .order-detail-box .col-xs-6 {
+        border-right: 4px solid rgb(242, 242, 242);
+        min-height: 75px;
+    }
+
+    .update-order-modal-btn {
+        margin-top: 10px;
+    }
+
+    #menus .filter-greybox {
+        height: 82px !important;
+    }
+
+    #menus .select-box select {
+        padding: 10px 20px !important;
+        background-position-y: 8px !important;
+    }
+
+    #menus .sort {
+        margin-top: 0px !important;
+    }
+
+    #menus .sort select {
+        background-position-y: 8px !important;
+        background-position-x: 106% !important;
+    }
+
+    .item-cost h5 {
+        margin-top: -39px;
+    }
+
+    .img-upload-box {
+        height: 200px !important;
+    }
+
+    #reports .select-box1 select {
+        margin-left: 20px;
+    }
+
+    #reports .select-box1 input {
+        margin-bottom: 20px;
+    }
+
+    #reports .select-box1 .sort {
+        margin-top: 0 !important;
+        margin-left: 20px !important;
+    }
+
+    #reviews .select-box1 .sort {
+        margin-top: 1px !important;
+    }
+
+    #reviews .filter-greybox {
+        height: 112px !important;
+    }
+
+    #tickets .select-box1 .sort {
+        margin-top: -42px !important;
+    }
+
+    #tickets .table-report {
+        margin-top: 65px !important;
+    }
+
+    #delivery-locations .filter-greybox {
+        height: 62px !important;
+    }
+
+    .delivery_admin-section1 {
+        margin-left: -15px !important;
+    }
+
+    /*#delivery-locations .profile_admin_btn{margin-left: 15px !important;}*/
+    .delivery_admin-section .col-xs-12 {
+        margin-bottom: 15px;
+    }
+
+    #takeaway-locations .filter-greybox {
+        height: 62px !important;
+    }
+
+    #takeaway-locations .profile_admin_btn {
+        margin-left: 15px !important;
+    }
+
+    #takeaway-locations .admin_submit {
+        margin-left: 0px !important;
+    }
+
+    #promotions .filter-greybox {
+        height: 62px !important;
+    }
+
+    #promotions .delivery_admin-section1 p, select, input, .admin_save {
+        margin-left: 15px !important;
+    }
+
+    #promotions .delivery_admin h4 {
+        margin-left: -15px !important;
+    }
+
+    #promotions .admin_submit {
+        margin-left: -15px !important;
+    }
+}
+
+@media (min-width: 1024px) {
+    .menu-images {
+        width: 80px !important;
+    }
+
+    .contact-icons img {
+        padding-right: 20px !important;
+    }
+
+    /*.res-admin {
+        margin-top: 85px !important;
+    }*/
+    .update-order-modal-btn { /*margin-left:135px !important;*/
+        margin-left: 0 !important;
+    }
+
+    .menu-description {
+        min-height: 138px;
+    }
+
+    .payment-status h3 {
+        padding-left: 15px !important;
+    }
+
+    .container {
+        /*width: 1300px;*/
+    }
+
+    .side-bar-ad ul {
+        margin-left: -39px;
+    }
+
+    .banner-section {
+        margin-top: -74px !important;
+        padding-top: 50px;
+    }
+
+    #takeaway-locations .delivery_admin-section1 {
+        margin-left: -15px;
+    }
+
+    .spl-discount-h {
+        margin-left: 15px;
+    }
+
+    #delivery-locations .delivery_admin-section1 {
+        margin-left: -15px;
+    }
+
+    #menus .switch1 {
+        margin-top: 15px;
+    }
+
+    #menus .on-off {
+        margin: auto;
+    }
+
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    /* STYLES GO HERE */
+    .order-price h3 {
+        font-size: 20px !important;
+    }
+
+    .view-order-modal .modal-dialog {
+        width: 751px !important;
+    }
+
+    .order-status-modal-first h3 {
+        margin-bottom: 15px;
+    }
+
+    #takeaways .payment-status h3 {
+        margin-left: 15px;
+    }
+
+    #menus .on-off {
+        margin: auto;
+    }
+
+    #menus .switch1 {
+        margin-top: 15px;
+    }
+
+    #menus .select-box {
+        margin: 8px auto 7px 7px !important;
+    }
+
+    #menus .add-new {
+        margin-left: 5px !important;
+        padding: 10px 5px;
+        font-size: 11px;
+    }
+
+    #tickets .select-box1 input {
+        padding: 19px 10px 19px 9px !important;
+    }
+
+    .side-bar-ad ul {
+        margin-left: -40px;
+    }
+
+    .side-bar-ad ul li {
+        font-size: 11px !important;
+        line-height: 17px !important;
+    }
+
+    .side-bar-ad h1 {
+        font-size: 15px !important;
+        line-height: 15px !important;
+    }
+
+    .side-bar-ad p {
+        font-size: 13px !important;
+        line-height: 13px !important;
+    }
+
+    .switch {
+        margin-top: 15px;
+    }
+
+    p {
+        font-size: 13px !important;
+    }
+
+    .or-ad-status h3 {
+        font-size: 14px !important;
+    }
+
+    .order-name h4 {
+        font-size: 14px !important;
+        line-height: 14px !important;
+    }
+
+    .sort {
+        margin-top: 15px;
+    }
+
+    .item-cost h5 {
+        /*margin-right: 20px;*/
+    }
+
+    #reports .select-box1 .sort {
+        margin-top: -9px !important;
+        margin-right: 22px;
+    }
+
+    #reports .select-box1 input {
+        padding: 19px 0px 19px 9px !important;
+        margin-left: 12px !important;
+    }
+
+    #reports .select-box1 select {
+        margin-bottom: 10px;
+    }
+
+    #reports .filter-greybox {
+        height: 125px !important;
+    }
+
+    .select-box1 .p {
+        margin-left: 28px !important;
+        margin-right: 28px !important;
+    }
+
+    #tickets.select-box1 h4 {
+        font-size: 13px !important;
+    }
+
+    #tickets.select-box1 .p1 {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    #tickets.select-box1 select {
+        padding: 19px 10px 19px 9px !important;
+    }
+
+    .profile-head h4 {
+        font-size: 15px !important;
+    }
+
+    .profile_class .col-md-12 {
+        padding-left: 15px !important;
+    }
+
+    .select-box {
+        position: absolute !important;
+    }
+
+    .banner-text p {
+        padding: 0 75px !important;
+    }
+
+    .button-signup-admin {
+        margin-bottom: 20px !important;
+    }
+
+    .printer {
+        margin-left: 220px !important;
+    }
+
+    .select-box1 .p1 {
+        margin-right: 0 !important;
+    }
+
+    #reviews .select-box1 input {
+        padding: 19px 0 9px !important;
+        margin-left: 0 !important;
+    }
+
+    #reviews .filter-greybox {
+        height: 98px !important;
+    }
+
+    #reviews .sort {
+        margin-right: 20px !important;
+        margin-top: 0px !important;
+    }
+
+    #reviews .select-box1 .p {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    td {
+        padding: 15px !important;
+    }
+
+    .spl-discount-h {
+        margin-left: 15px !important;
+    }
+
+    .delivery_admin-section input[type="checkbox"] {
+        width: 5% !important;
+        padding: 7px 5px !important;
+    }
+
+    #delivery-locations .delivery_admin-section1 {
+        margin-left: -15px !important;
+    }
+
+    .profile-ph .profile_class .col-md-12 {
+        padding-left: 0px !important;
+    }
+
+    #takeaway-locations .delivery_admin-section1 {
+        margin-left: -15px !important;
+    }
+
+    #reports .print-report {
+        margin: auto !important;
+    }
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+    .order-summary-box {
+        width: 100% !important;
+    }
+
+    .side-bar-ad h1 {
+        font-size: 19px !important;
+        line-height: 22px !important;
+    }
+
+    .confirm-address .btn-confirm-order {
+        width: 100% !important;
+    }
+
+    .visa-card-label {
+        left: 410px !important;
+    }
+
+    .order-summary-box .item-total {
+        font-size: 20px !important;
+    }
+
+    .order-confirm-row img {
+        width: 100%;
+    }
+
+    .contact-icons img {
+        padding-right: 9px !important;
+    }
+
+    .reservation-time p {
+        font-size: 14px;
+    }
+
+    .reservation-detail-box label {
+        font-size: 12px !important;
+    }
+
+    .myaccount-payment .visa-card-label {
+        left: 380px !important;
+    }
+
+    .delivery_admin-section input[type="checkbox"] {
+        width: 5% !important;
+        padding: 7px 5px !important;
+    }
+
+    input[type="checkbox"] {
+        width: 5% !important;
+        padding: 7px 5px !important;
+    }
+
+    .profile_admin_btn {
+        /*width: 46% !important;*/
+    }
+
+    .container {
+        /*width: 1024px !important;*/
+    }
+
+    #takeaway-locations .profile_admin_btn {
+        width: auto !important;
+        padding: 20px 16px !important;
+    }
+
+    .filter-greybox {
+        height: auto;
+        min-height: 140px;
+    }
+
+    .filter-greybox .sort {
+        float: left;
+        margin-left: 0;
+    }
+
+    .order-detail-box .col-sm-4 {
+        padding-left: 5px;
+        padding-right: 5px;
+        word-break: break-word;
+    }
+
+    .order-detail-box .order-price {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .order-detail-box .order-status {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .order-detail-box .col-sm-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+        word-break: break-word;
+    }
+
+    .select-box select {
+        padding: 19px 25px 19px 9px;
+    }
+
+    .delivery_admin-section .col-sm-1 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .delivery_admin-section .col-sm-2 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+/* Chrome 29+ */
+@media screen and (-webkit-min-device-pixel-ratio: 0)
+and (min-resolution: .001dpcm) {
+    .select-box1 .sort {
+        margin-top: 0 !important;
+    }
+}
+
+@-moz-document url-prefix() {
+    #reviews.select-box1 .sort {
+        margin-top: 0px !important;
+    }
+    .select-box1 .sort {
+        margin-top: -56px !important;
+    }
+    #reviews.select-box1 .sort {
+        margin-top: 0px !important;
+    }
+}
